@@ -1,0 +1,22 @@
+{
+  "model_name": "dmis-lab/biobert-base-cased-v1.1",
+  "seeds": [
+    42
+  ],
+  "epochs": 3,
+  "patience": 10,
+  "train_batch_size": 32,
+  "micro_batch_size": 8,
+  "gradient_accumulation_steps": 4,
+  "cpu_threads": 4,
+  "eval_batch_size": 128,
+  "learning_rate": 2e-05,
+  "data_dir": "D:\\Major_42\\CliniFact\\data\\processed\\primary_outcome_publication_dataset",
+  "rows": {
+    "train": 1260,
+    "validation": 316,
+    "test": 394
+  },
+  "seed_policy": "Python, NumPy, PyTorch, and DataLoader generator seeded per run",
+  "checkpoint_selection": "highest validation macro-F1"
+}

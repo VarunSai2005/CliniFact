@@ -1,0 +1,10 @@
+split,label_id,label_name,count,proportion
+train,0,inconclusive,262,0.20793650793650795
+train,1,evidence,366,0.2904761904761905
+train,2,NEI,632,0.5015873015873016
+validation,0,inconclusive,67,0.2120253164556962
+validation,1,evidence,83,0.2626582278481013
+validation,2,NEI,166,0.5253164556962026
+test,0,inconclusive,54,0.13705583756345177
+test,1,evidence,113,0.2868020304568528
+test,2,NEI,227,0.5761421319796954
